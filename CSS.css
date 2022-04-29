@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+@font-face {
+	font-family: font1;
+	src: url(Fontovi/kokilabi.ttf);
+}
+
+
+body {
+	background-color:blue;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+#header {
+	background-color: blue;
+	border-bottom: 4px solid #e4fd03;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;	 
+}
+
+#footer { 
+	padding: 40px 0;
+	text-align: center;
+}
+
+header, footer {   
+	padding: 5px 0;
+	margin: 0 5%;
+	overflow: auto;
+}
+
+.menu{
+    float: right;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px;
+	margin-top: 25px;
+	margin-right: 2px;
+	color: white;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: blue;
+	background-color: #e4fd03;
+}
+/*hero-header*/
+div#slider figure img {
+	width: 20%;
+	min-height: 200px;
+	max-height: 500px;
+	object-fit: cover;
+}
+div#hero-header figure {
+	width: 100%;
+	position: relative;}
+	#hero-header p {
+		font-size: 170px;
+		font-weight: bold;
+		position: absolute;
+		top: 80%;
+		left: 30%;
+		color: #e4fd03;
+}
+/*o nama*/
+
+#onama{
+background-color: #11064b;
+text-align: center;
+}
+
+/*treneri*/
+#jedan{
+	margin-bottom: 30px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#dva{margin-bottom: 30px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;}
+
+.ponuda {
+	background-color:#e5a73a;
+	width: 250px;
+	padding: 20px;
+	margin: 10px;
+	line-height: 20px;
+}
+
+.ponuda h3 {
+	margin: 10px 0;
+	color: #3b2009;
+	font-family: font1;
+	font-size: 30px;
+
+/*Upis novih članova*/
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 50px;
+	border-right: 10px solid #e5a73a;
+	border-bottom: 20px solid #e5a73a;
+}
+/*kontakt*/
+
+#kontakt{
+    margin-top: 30px;
+}
+
+#kontakt h2{
+    color: #fff;
+    padding-bottom: 20px;
+	text-align: center;
+}
+#kontakt p{
+	padding-bottom: 10px;
+}
+#info{
+	background-color:blue;
+    padding-bottom: 30px;
+	margin-top: 35px;
+	padding-left: 50px;
+}
+
+iframe{
+	margin-top: 35px;
+    border-radius: 10px;
+    width: 500px;
+    height: 250px;
+}
